@@ -7,16 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PP-6</title>
     <link rel="stylesheet" href="style-6.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px" href="phone.css">
 </head>
 
 <body>
     <nav class="navbar">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
     </nav>
@@ -92,10 +94,21 @@
                     eligendi? Rem voluptas consequuntur quidem laudantium soluta ipsum, commodi eius labore doloremque
                     sequi voluptatum quia tempora repellendus similique atque earum
             </div>
-
-
-
         </div>
+    </section>
+
+
+    <section id="contact">
+        <h1 class="heading">
+            CONTACT
+        </h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your name">
+            <input type="email" name="email" class="input" placeholder="Enter your email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            <input type="submit" value="SEND" id="send">
+
+        </form>
     </section>
 
 
